@@ -2,21 +2,21 @@ import React from 'react'
 
 /* JSX RULES PRACTICE */
 
-/*Using PascalCase for naming attributes <3*/
+/*Using PascalCase for naming attributes*/
 const ThisDemo = () => {
-  const character = "cinnamoroll";
+  const character = "sigmaboy";
   return (
     <>
     {/*Jsx demo 101*/}
     <h1>This is a demo of JSX</h1>
     <p>I am using PascalCase for naming attributes</p>
-    <img src="https://i.pinimg.com/736x/e7/ce/77/e7ce7789198048dd89fcd2532078bf4a.jpg" alt="Cinna" />
+    <img src="https://i.pinimg.com/736x/91/f4/1c/91f41ca4b86b3140491db6f68973d916.jpg" alt="Lu2" />
     <p>
-      The image above is using a self-closing tag. Btw, this is my verrryyy cute {" "}
+      Today we are cooking, let's Prepare the Ingredients. {" "}
       <strong>{character.toUpperCase()}</strong>!!!
     </p>
-    <label htmlFor="favoriteCharacter">
-  Favorite Sanrio Character:
+    <label htmlFor="favoriteDish">
+  Favorite Dish:
 </label>
 
 <input id="favoriteCharacter" type="text" placeholder="Type here!"/>
